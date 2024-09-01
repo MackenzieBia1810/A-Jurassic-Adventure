@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+    <title>A Jurassic Adventure</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpeg" alt="">
+
+            <p>“Em uma noite gélida, onde o silêncio era tão profundo quanto o de um cemitério, você se encontrava mais
+                uma vez no aconchego do seu quarto, envolto nas cobertas, assistindo pela vigésima vez a melhor
+                sequência de filmes já criada: Jurassic Park e Jurassic World. Embora fosse 2h da madrugada, os rugidos
+                das criaturas gigantes e aterrorizantes mantinham você acordado. Logo após iniciar Jurassic World, seus
+                olhos começaram a pesar, até que, finalmente, o sono venceu e seu corpo cedeu.
+
+                As horas passaram e, quando você abriu os olhos, encontrou-se em um campo ensolarado. Atordoado,
+                percebeu que não estava mais na sua cama, mas sim deitado em um gramado. Ao levantar-se, completamente
+                aterrorizado, ouviu um rugido ensurdecedor. Seu coração disparou. Parecia um animal… Um animal enorme.
+                Desesperado, você correu pela mata fechada até chegar a uma encruzilhada. Nada disso parecia real. O que
+                eram aqueles barulhos? Por que eram tão parecidos com os dinossauros do filme que você estava
+                assistindo? Será que você realmente foi parar no universo de Jurassic World ou tudo isso não passava de
+                um sonho?
+                Nada mais importava agora. Você precisava seguir em frente e descobrir o que fazer.”
+
+                Cada escolha a partir de agora poderia ser a última. Tenha cuidado e boa sorte.</p>
+
+            <button class="btn-proximo" data-proximo="1">Ir para a esquerda.</button>
+            <button class="btn-proximo" data-proximo="2">Ir para a direita.</button>
+            <button class="btn-proximo" data-proximo="3">Voltar para trás.</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1.jpeg" alt="">
+
+            <p>Caminhando pela esquerda, você encontra-se em um belo riacho. Uma família de estegossauros estão
+                atravessando até o outro lado.
+                O filhote te vê e se separa dos pais indo até você. O que fazer?</p>
+
+            <button class="btn-proximo" data-proximo="4">Acariciar o filhote.</button>
+            <button class="btn-proximo" data-proximo="5">Abaixar-se lentamente.</button>
+            <button class="btn-proximo" data-proximo="6">Gritar para o filhote ir embora.</button>
+            <button class="btn-proximo" data-proximo="7">Sair correndo.</button>
+            <button class="btn-proximo" data-proximo="8">Voltar para a encruzilhada.</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2.jpeg" alt="">
+
+            <p>Você chega em um local abandonado. Parece a central abandonada do primeiro filme. Deseja entrar?</p>
+            <button class="btn-proximo" data-proximo="9">Adentrar o local.</button>
+            <button class="btn-proximo" data-proximo="10">Voltar para a encruzilhada.</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <h1>GAME OVER</h1>
+
+            <img src="GameOver1.jpeg" alt="">
+
+            <p>Você deu de cara com uma T-rex. A famosa Rexy, por mais feliz que você estivesse, não houve tempo de
+                felicidade. Não tinha para onde correr e ela te comeu vivo em uma só mordida.</p>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <h1>GAME OVER</h1>
+
+            <img src="GameOver2.jpeg" alt="">
+
+            <p>Quando você ergue seu braço, o filhote se assusta e grita de medo. Os pais que já haviam atravessado o
+                riacho correm para salvar sua cria. Você não teve tempo de reagir até os espinhos do estegossauro
+                acertarem seu crânio e lhe fazer voar longe, já morto.</p>
+
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo3.jpeg" alt="">
+
+            <p>Ao abaixar-se, você permite que o filhote lhe cheire. Você estende a sua mão cuidadosamente e ele a
+                lambe. Tuas mãos agora, acariciavam o rosto da pequena criatura. Ela ouve o chamado dos pais e retorna
+                correndo. Um momento único. Hora de prosseguir!</p>
+            <button class="btn-proximo" data-proximo="11">Seguir adiante.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <h1>GAME OVER</h1>
+
+            <img src="GameOver3.jpeg" alt="">
+
+            <p>Ao gritar, o filhote se assusta e acerta sua perna com os pequenos espinhos de sua cauda. Você não
+                consegue levantar-se e grita de dor. O filhote fugiu, mas seus gritos atraíram um grupo de
+                Compsognathus. Você morreu lenta e dolorosamente.</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo4.jpeg" alt="">
+
+            <p>Amedrontado do que poderia lhe ocorrer casos os pais se enfurecessem, você corre rapidamente, fazendo o
+                filhote se assustar e correr também. Você parou de correr até se sentir seguro de novo.</p>
+            <button class="btn-proximo" data-proximo="12">Seguir adiante.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo0.jpeg" alt="">
+
+            <p>“Em uma noite gélida, onde o silêncio era tão profundo quanto o de um cemitério, você se encontrava mais
+                uma vez no aconchego do seu quarto, envolto nas cobertas, assistindo pela vigésima vez a melhor
+                sequência de filmes já criada: Jurassic Park e Jurassic World. Embora fosse 2h da madrugada, os rugidos
+                das criaturas gigantes e aterrorizantes mantinham você acordado. Logo após iniciar Jurassic World, seus
+                olhos começaram a pesar, até que, finalmente, o sono venceu e seu corpo cedeu. As horas passaram e,
+                quando você abriu os olhos, encontrou-se em um campo ensolarado. Atordoado, percebeu que não estava mais
+                na sua cama, mas sim deitado em um gramado. Ao levantar-se, completamente aterrorizado, ouviu um rugido
+                ensurdecedor. Seu coração disparou. Parecia um animal… Um animal enorme. Desesperado, você correu pela
+                mata fechada até chegar a uma encruzilhada. Nada disso parecia real. O que eram aqueles barulhos? Por
+                que eram tão parecidos com os dinossauros do filme que você estava assistindo? Será que você realmente
+                foi parar no universo de Jurassic World ou tudo isso não passava de um sonho? Nada mais importava agora.
+                Você precisava seguir em frente e descobrir o que fazer.” Cada escolha a partir de agora poderia ser a
+                última. Tenha cuidado e boa sorte.</p>
+
+            <button class="btn-proximo" data-proximo="1">Ir para a esquerda.</button>
+            <button class="btn-proximo" data-proximo="2">Ir para a direita.</button>
+            <button class="btn-proximo" data-proximo="3">Voltar para trás.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo5.jpeg" alt="">
+
+            <p>Ao adentrar a sala de controle, você observa o grande local. A nostálgica emoção preenche seu peito. Seu
+                coração acelera tamanha a emoção. Ao recompor-se, você alguns barulhos. Provavelmente algum dinossauro
+                estava lá. Os gritos. O som estridente que faziam, como se comunicavam... Raptors.
+                Você precisa se esconder rápido!!!</p>
+            <button class="btn-proximo" data-proximo="13">Esconder-se no armário de ferro.</button>
+            <button class="btn-proximo" data-proximo="14">Esconder-se embaixo dos armários de objetos.</button>
+            <button class="btn-proximo" data-proximo="15">Esconder-se embaixo da mesa dos computadores.</button>
+            <button class="btn-proximo" data-proximo="16">Correr.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="cenario-passo0.jpeg" alt="">
+
+            <p>“Em uma noite gélida, onde o silêncio era tão profundo quanto o de um cemitério, você se encontrava mais
+                uma vez no aconchego do seu quarto, envolto nas cobertas, assistindo pela vigésima vez a melhor
+                sequência de filmes já criada: Jurassic Park e Jurassic World. Embora fosse 2h da madrugada, os rugidos
+                das criaturas gigantes e aterrorizantes mantinham você acordado. Logo após iniciar Jurassic World, seus
+                olhos começaram a pesar, até que, finalmente, o sono venceu e seu corpo cedeu.
+
+                As horas passaram e, quando você abriu os olhos, encontrou-se em um campo ensolarado. Atordoado,
+                percebeu que não estava mais na sua cama, mas sim deitado em um gramado. Ao levantar-se, completamente
+                aterrorizado, ouviu um rugido ensurdecedor. Seu coração disparou. Parecia um animal… Um animal enorme.
+                Desesperado, você correu pela mata fechada até chegar a uma encruzilhada. Nada disso parecia real. O que
+                eram aqueles barulhos? Por que eram tão parecidos com os dinossauros do filme que você estava
+                assistindo? Será que você realmente foi parar no universo de Jurassic World ou tudo isso não passava de
+                um sonho?
+                Nada mais importava agora. Você precisava seguir em frente e descobrir o que fazer.”
+
+                Cada escolha a partir de agora poderia ser a última. Tenha cuidado e boa sorte.</p>
+
+            <button class="btn-proximo" data-proximo="1">Ir para a esquerda.</button>
+            <button class="btn-proximo" data-proximo="2">Ir para a direita.</button>
+            <button class="btn-proximo" data-proximo="3">Voltar para trás.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo6.jpeg" alt="">
+
+            <p>Adentrando a floresta, você avista um estranho brilho azulado. Aproximando-se devagar, você chega à uma
+                clareira. O brilho vinha de um estranho portal. “Deve ser o caminho para casa!” Você disse a si mesmo.
+                Deseja entrar e retornar ao conforto de sua casa ou viver seu sonho com aquelas criaturas e muita
+                adrenalina?</p>
+            <button class="btn-proximo" data-proximo="17">Voltar para casa.</button>
+            <button class="btn-proximo" data-proximo="18">Viver em Jurassic Park.</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="cenario-passo6.jpeg" alt="">
+
+            <p>Adentrando a floresta, você avista um estranho brilho azulado. Aproximando-se devagar, você chega à uma
+                clareira. O brilho vinha de um estranho portal. “Deve ser o caminho para casa!” Você disse a si mesmo.
+                Deseja entrar e retornar ao conforto de sua casa ou viver seu sonho com aquelas criaturas e muita
+                adrenalina?</p>
+            <button class="btn-proximo" data-proximo="17">Voltar para casa.</button>
+            <button class="btn-proximo" data-proximo="18">Viver em Jurassic Park.</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <h1>GAME OVER</h1>
+
+            <img src="GameOver4.jpeg" alt="">
+
+            <p>O barulho do armário abrindo fez um barulho estrondoso. Mesmo se escondendo dentro dele, os velociraptors
+                sabiam de alguma forma que você estava ali. Eles puxaram a porta mal fechada e logo pularam em seu
+                pescoço, sua morte foi rápida.</p>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <img src="cenario-passo7.jpeg" alt="">
+
+            <p>Você adentrou os armários, que surpreendentemente estavam vazios. Fechando a porta lentamente, você ouvia
+                suas garras das patas traseiras batendo no chão. Seu barulhos eram sutis agora, como se estivessem
+                conversando. Eles se aproximaram do armário em que você estava, fazendo sua ansiedade subir. Por sorte,
+                o lugar já estava a tanto tempo abandonado que poeira fez o olfato do dinossauro confundir seu cheiro,
+                pensando que era algum objeto inanimado. Eles caminharam pela sala mais alguns minutos. Agora tudo
+                estava em silêncio. Mesmo com medo, você abriu a porta do armário e saiu de lá correndo o máximo que
+                podia, parando ma frente de uma cachoeira.</p>
+            <button class="btn-proximo" data-proximo="19">Seguir adiante</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <h1>GAME OVER</h1>
+
+            <img src="GameOver5.jpeg" alt="">
+
+            <p>A ideia seria boa, se as mesas não fossem abertas embaixo. Os raptors te encontraram sem esforço algum.
+                Você morreu sem nem ter certeza de qual deles te atingiu primeiro.</p>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <h1>GAME OVER</h1>
+
+            <img src="GameOver6.jpeg" alt="">
+
+            <p>Você poderia tentar correr, mas sabia dos riscos. Os seus passos pesados fizeram com que os raptors
+                rapidamente chegassem até você. Encurralado no que seria o Hall de entrada do Park, o primeiro
+                velociraptor lhe atacou pela esquerda. Mesmo se debatendo, logo os outros vieram e terminaram o serviço.
+                Sua morte foi extremamente dolorosa.</p>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <h2 class="bom">Final Bom!</h2>
+            <h3>Meus parabéns, você conseguiu retornar ao seu lar!</h3>
+
+            <img src="final1.jpeg" alt="">
+
+            <p>Você acorda. O suor frio escorria por todo seu corpo. Seu coração acelerado fazia seu corpo tremer-se
+                totalmente. “Era um sonho. Realmente era um sonho.” O filme já havia acabado fazia algumas horas, eram
+                5h47. Você desligou a TV e apenas sorriu. Apesar de amar tudo aquilo, apenas precisava de um descanso.
+                Você apaga a luz do abajur próximo a cama, e dorme suavemente sem mais sonhos pelo resto da madrugada.
+            </p>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <h2 class="neutro">Final Neutro.</h2>
+            <h3>Meus parabéns, você conseguiu retornar ao seu lar!</h3>
+
+            <img src="final2.jpeg" alt="">
+
+            <p>Seus passos recuaram, por algum motivo, você sentia que se atravessasse aquele portal, tudo acabaria para
+                sempre. Se tudo era realmente era um sonho, você poderia ficar lá por mais algumas horas. Você decide
+                ficar.
+                O portal fechou-se. Você viveu uma vida incrível naquele lugar, mas infelizmente, todos da sua família
+                sempre se perguntavam como e por que você havia entrado em coma. Você viveu feliz para sempre em seus
+                sonhos.</p>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <img src="cenario-passo8.jpeg" alt="">
+
+            <p>Ao fundo da cachoeira, algo brilhava e fez sua curiosidade ascender. O que fazer?</p>
+            <button class="btn-proximo" data-proximo="20">Nadar até o fundo.</button>
+            <button class="btn-proximo" data-proximo="21">Admirar a paisagem.</button>
+        </div>
+
+        <div class="passo" id="passo-20">
+            <h2 class="bom">Final Bom.</h2>
+            <h3>Meus parabéns, você conseguiu retornar ao seu lar!</h3>
+
+            <img src="final3.jpeg" alt="">
+
+            <p>Você pula sem hesitação, era fundo e você só tinha uma chance. Mesmo com a visão turva, você alcançou
+                aquele pálido brilho no fundo do lago da cachoeira. Sua mão direita toca o estranho brilho e então, tudo
+                apaga. Você abre os olhos e levanta rápido, assustado, com a respiração ofegante, você olha para os
+                lados. Seu quarto, seu quente e aconchegante quarto. “Tudo acabou”. Você pensou. Você se jogou de volta
+                para deitar na sua cama. Encarando o teto enquanto refletia, seus olhos pesaram e você apenas
+                permitiu-se dormir novamente. Seu sono foi calmo pelo resto da madrugada.</p>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <h2 class="ruim">Final Ruim.</h2>
+            <h3>Sinto muito, suas escolhas levaram você ao seu trágico fim.</h3>
+
+            <img src="final4.jpeg" alt="">
+
+            <p>Após tanta correria, você apenas queria deitar e descansar por alguns minutos. Você sentou na grama
+                próxima à lagoa da cachoeira. Por algum motivo, a sensação de observação queimava sua nuca, até você
+                sentir uma forte respiração acima de sua cabeça. Seu tempo foi apenas para olhar para cima antes de dar
+                de cara com inúmeros dentes. Um espinossauro usufruía da água daquela lagoa para refrescar-se em
+                momentos de calor. Você teve o azar de estar lá na hora errada. Sua morte foi praticamente indolor, já
+                que ele lhe abocanhou numa só. Você morreu na vida real e ninguém nunca soube como.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

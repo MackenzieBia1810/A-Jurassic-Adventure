@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(53, 41, 29);
+    color: white;
+    font-family: "Macondo", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0px;
+}
+
+button {
+    background-color: rgb(160, 063, 013);
+    color: white;
+    font-family: "Macondo", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 60%;
+}
+
+h1 {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+}
+
+.bom {
+    color: rgb(26, 117, 26);
+}
+
+.neutro {
+    color: rgb(255, 187, 0);
+}
+
+.ruim {
+    color: rgb(182, 4, 4);
+}
+
+h3 {
+    color: rgb(231, 210, 186);
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 30px;
+}
